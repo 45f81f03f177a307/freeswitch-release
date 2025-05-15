@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 定义 TOKEN
-TOKEN="pat_E8sNkonWh41V2SxV4BGB2xNC"
+TOKEN="pat_xxxxxxxxxxxxx"
 
 # 更新系统并安装 curl
 echo "=== 更新系统并安装 curl ==="
