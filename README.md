@@ -1,0 +1,2 @@
+基于freeswitch官方的打包方式
+需要自己注册和填写token
