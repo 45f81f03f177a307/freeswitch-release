@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  freeswitch:
+    image: freeswitch:v1.10.12  # 使用指定的 FreeSWITCH 镜像
+    container_name: freeswitch  # 容器名称
+    network_mode: host          # 使用 Host 网络模式
+    privileged: true            # 授予容器最高权限
+    command: ["/usr/local/freeswitch/bin/freeswitch", "-nf"]  # FreeSWITCH 启动命令CMD []
